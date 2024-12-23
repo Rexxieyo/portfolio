@@ -375,6 +375,8 @@ footer {
   align-items: center;
   height: 11rem;
   background-color: gray;
+  position; fixed;
+  bottom: 0;
 }
 
 .connect {
