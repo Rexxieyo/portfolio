@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Olaniyan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="ham.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <link rel="manifest" href=".images/site.webmanifest">
+    
+</head>
+<body>
+    <header>
+        <span class="ola">Olaniyan</span>
+        <div>
+          <i class="fa-solid fa-moon"></i>
+          <i class="fa-solid fa-sun"></i>
+        </div>
+        
+        <button id="button" class="hamburger hamburger--spin" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+    </button>
+    </header>
+    
+    
+    
+    
+    <div class="dropdown tracking-in-expand">
+        <div id="about" class="hvr-underline-from-center">About</div>
+        <div id="skills" class="hvr-underline-from-center">Skills</div>
+        <div id="projects" class="hvr-underline-from-center">Projects</div>
+        <div id="contact" class="hvr-underline-from-center">Contact</div>
+    </div>
+    
+    
+    <main class="slide-in-right">
+       <h4 class="hello">Hello, I'm Olaniyan Saheed.</h4>
+       <p class="info">A frontend website developer skilled in creating functional and responsive websites. I deliver impactful results through strategic thinking to attain the best user interface and functionality.</p>
+    </main>
+    
+    
+    
+    <section class="slide-in-left">
+        <h4 class="skills">Skills</h4>
+        <p>Technologies I work with</p>
+        <div class="icons">
+            <div>
+                <img src="./images/html-5.png" alt="html" class="icon">
+                <p>HTML</p>
+                </div>
+            <div><img src="./images/css-3.png" alt="css" class="icon">
+            <p>CSS</p>
+            </div>
+            <div><img src="./images/js.png" alt="JavaScript" class="icon">
+            <p>JavaScript</p></div>
+            <div><img src="./images/physics.png" alt="react" class="icon">
+            <p>React.js</p></div>
+            <div><img src="./images/bootstrap.png" alt="" class="icon">
+            <p>Bootstrap</p></div>
+            <div><img src="./images/sql.png" alt="" class="icon">
+            <p>SQL</p></div>
+            <div>
+                <img src="./images/social.png" alt="" class="icon">
+                <p>Git</p>
+            </div>
+            
+        </div>
+    </section>
+    
+    <div class="project-header">
+        <h4 class="skills">Projects</h4>
+        <p>Few of my projects</p>
+    </div>
+    
+    <article>
+        
+        
+        <div class="slide-in-fwd-center project-container">
+            <img class="project-image" src="./images/todo.jpg" alt="">
+            
+            <div class="project-info">
+                <h3>ToDo WebApp</h3>
+                <p>The web application enables users to perform CRUD operations, such as inputing task and deleting the task when successfully completed.</p>
+                <div>
+                <i class="fa-solid fa-link"></i>
+                <a href="https://todo-fawn-six-36.vercel.app">Live preview</a>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        <div class="project-container">
+            <img class="project-image" src="./images/sandwich.jpg" alt="">
+            
+            <div class="project-info">
+                <h3>Sandwich Budget</h3>
+                <p>Input your budget and quantity of sandwich. It displays if you can afford it or not with how much left in your budget.</p>
+                <div>
+                <i class="fa-solid fa-link"></i>
+                <a href="https://codepen.io/Olaniyan-Opemiposi/full/BaMGMxL">Live preview</a>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div class="project-container">
+            <img class="project-image" src="./images/audio.jpeg" alt="">
+            
+            <div class="project-info">
+                <h3>Audio Market</h3>
+                <p>A simple music blog and download webpage.</p>
+                <div>
+                <i class="fa-solid fa-link"></i>
+                <a href="https://gj778z.mimo.run/index.html">Live preview</a>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="project-container">
+            <img class="project-image" src="./images/vote.jpg" alt="">
+            
+            <div class="project-info">
+                <h3>Vote Counter</h3>
+                <p>Webpage with upvote and downvote options.</p>
+                <div>
+                <i class="fa-solid fa-link"></i>
+                <a href="https://codepen.io/Olaniyan-Opemiposi/full/wvRbWNN">Live preview</a>
+                </div>
+            </div>
+        </div>
+        
+    </article>
+
+
+
+    <aside>
+        <div class="contact-me">
+            <h2>Contact Me</h2>
+            <p>Provide your details and information on<br> what you need help with, Let's work together.</p>
+        </div>
+        <form name="contactForm" id="form">
+            <div class="inputs">
+                <span class="input-label">Name</span>
+                <br>
+                <input type="text" placeholder="Enter name" id="from_name" name="from_name">
+            </div>
+            <div>
+                <span class="input-label">Email</span>
+                <br>
+                <input type="mail" placeholder="Enter email" id="email_id" name="email_id">
+            </div>
+            <div>
+                    <span class="input-label">Message</span>
+                    <br>
+                    <textarea placeholder="Your message?" id="message" name="message"></textarea>
+            </div>
+                
+            <input type="submit" id="buttons" value="Send Email" class="send-message">
+        </form>
+    </aside>
+
+    <footer>
+        
+        <div>
+            © 2024 OLANIYAN SAHEED
+        </div>
+        <div class="connect">
+            <a href="https://github.com/Rexxieyo"><i class="fa-brands fa-github"></i></a>
+            <a href="https://ng.linkedin.com/in/olaniyan-opemiposi-6903ab282"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://x.com/olaniyanposi?t=MzXrluDrm-_n5oWjtATP9g&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="mailto:olaniyanposi@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+    </footer>
+
+    
+  <script src="portfolio.js"></script>
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+  emailjs.init('V6y7pNs1pAaLLMJ_y')
+  </script>
+
+
+  
+</body>
+</html>
